@@ -1,9 +1,12 @@
 {
   "name": "tithi.js",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Npm package to calculate tithi",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@ruriko123"
+  },
   "scripts": {
     "build": "tsc"
   },
@@ -11,9 +14,13 @@
     "type": "git",
     "url": "git+https://github.com/ruriko123/tithi.js.git"
   },
+  "bugs": {
+    "url": "https://github.com/ruriko123/tithi.js/issues"
+  },
+  "homepage": "https://github.com/ruriko123/tithi.js#readme",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ruriko123",
+  "license": "MIT",
   "dependencies": {
     "astronomy-bundle": "^7.7.2",
     "esm": "^3.2.25",
