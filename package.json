@@ -1,11 +1,11 @@
 {
-  "name": "tithi.js",
+  "name": "@ruriko123/tithi.js",
   "version": "1.0.4",
   "description": "Npm package to calculate tithi",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "tsc"
